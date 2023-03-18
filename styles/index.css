@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    border-radius: 15px;
+    box-shadow: 6px 0px 25px 0 rgba(12, 1, 114, 0.2);
+    padding: 30px 40px;
+    margin: 10px;
+    width: 500px;
+    display: block;
+}
+
+.card div{
+    padding: 5px;
+}
+
+.card div:nth-child(even){
+    background-color: rgba(12, 1, 114, 0.05);
+}
